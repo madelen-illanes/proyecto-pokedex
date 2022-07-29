@@ -1,0 +1,62 @@
+:host {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 14px;
+    color: #333;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  .form {
+    background-color: #FFF;
+    height: 420px;
+    width: 800px;
+    margin: 0px auto 32px;
+    border: 1px solid #dddddd;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .form fieldset {
+    border: 0 none;
+  }
+
+  .form h1 {
+    padding: 20px 0;
+    font-size: 140%;
+    font-weight: 300;
+    text-align: center;
+    color: black;
+    margin: 16px -16px 16px -16px;
+  }
+
+  .form label {
+    font-size: 16px;
+    color: #333;
+    height: 20px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: right;
+    margin-right: 15px;
+    float: left;
+  }
+
+  .form input {
+    height: 32px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 10px;
+  }
+
+  .form button {
+    margin: 32px;
+    width: 15%;
+    background-color: #4CAF50;
+    border: solid #ccc;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    height: 51px;
+  }

@@ -2,7 +2,7 @@ import {Component, OnInit} from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from "@angular/forms";
 import {PokemonService} from "../../service/pokemon.service";
 import {ActivatedRoute, Router} from "@angular/router";
-
+import {PokemonParams} from "../interface/pokemonparams"
 @Component({
   selector: 'app-create',
   templateUrl: './create.component.html',
@@ -97,13 +97,3 @@ export class CreateComponent implements OnInit {
   }
 }
 
-export interface PokemonParams {
-  id: number,
-  name: string,
-  image: string,
-  attack: number,
-  defense: number,
-  hp: number,
-  type: string,
-  idAuthor: number
-}
